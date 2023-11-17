@@ -132,3 +132,21 @@ span {
   line-height: 52px;
   max-width: 580px;
 }
+.recipes__subtitle {
+  max-width: 438px;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 24px;
+}
+.recipes__videos {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+.recipes__videos__iframe {
+  display: flex;
+  column-gap: 40px;
+}
