@@ -1,33 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Erdwin Nandayapa Cordero" />
-    <meta name="description" content="Es una pagina de cafeteria Española">
-    <meta name="keywords" content="Cafeteria">
+    <meta name="description" content="Es una pagina de cafeteria Española" />
+    <meta name="keywords" content="Cafeteria" />
     <title>Cafeteria</title>
     <link rel="shortcut icon" href="favicon.ico" />
     <link rel="stylesheet" href="./vendor/normalize.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Marvel:ital@1&family=Noto+Serif:ital@0;1&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Marvel:ital@1&family=Noto+Serif:ital@0;1&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./pages/index.css" />
-</head>
-<body>
-  <div class="page">
-    Probando...
-    <header class="header"></header>
-    <main class="content">
-      <section class="recipes"></section>
-      <section class="reservation"></section>
-      <section class="menu"></section>
-      <section class="about"></section>
-    </main>
-    <footer class="footer"></footer>
-
-
-  </div>
-
-</body>
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <nav class="nav">
+          <img
+            src="./images/logo_coffeeshop_dark.svg"
+            alt="logo"
+            class="nav__logo"
+          />
+          <ul class="nav__links">
+            <li>
+              <a href="" class="nav__link">Recetas</a>
+            </li>
+            <li>
+              <a href="" class="nav__link">Reservar una mesa</a>
+            </li>
+            <li>
+              <a href="" class="nav__link">Menú</a>
+            </li>
+            <li>
+              <a href="" class="nav__link">Contactos</a>
+            </li>
+          </ul>
+        </nav>
+        <h1 class="header__title">
+          <span>Café de especialidad </span> en la biblioteca Triple Peaks
+        </h1>
+        <p class="header__description">
+          ¡Te damos la bienvenida a nuestra zona de estudio! Aquí tenemos café
+          para darte energía y una vibra acogedora que motivarán tu &nbsp
+          creatividad
+        </p>
+        <img
+          src="./images/inside_coffee_shop.png"
+          alt="coffe inside_coffee_shop"
+          class="header__image"
+        />
+        <div class="header__footer">
+          <div class="header__fotter_column">
+            <ul class="header__footer__list">
+              <li class="header__footer__list-item">Horario:</li>
+              <li class="header__footer__list-item">
+                Lunes a viernes (de 10:00 a 19:00)
+              </li>
+              <li class="header__footer__list-item">
+                Sabado a Domingo (de 11:00 a 18:00)
+              </li>
+            </ul>
+            <p class="header__footer_direccion">
+              Avenida del Éxito 200, Ciudad Triple Peaks
+            </p>
+          </div>
+        </div>
+      </header>
+      <main class="content">
+        <section class="recipes"></section>
+        <section class="reservation"></section>
+        <section class="menu"></section>
+        <section class="about"></section>
+      </main>
+      <footer class="footer"></footer>
+    </div>
+  </body>
 </html>
