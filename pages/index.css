@@ -145,8 +145,23 @@ span {
   display: flex;
   justify-content: center;
   margin-top: 80px;
+  position: relative;
 }
 .recipes__videos__iframe {
   display: flex;
   column-gap: 40px;
+}
+.recipes-caption {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  display: flex;
+  justify-content: center;
+  /*position: absolute;*/
+  /*bottom: -31px;*/
+  gap: 39px;
+  margin-top: 24px;
+  padding-bottom: 215px;
 }
