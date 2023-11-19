@@ -88,7 +88,7 @@ span {
   display: flex;
   margin-top: auto;
 }
-.header__fotter_column {
+.header__footer_column {
   display: flex;
   flex-basis: 100%;
   justify-content: space-between;
@@ -106,7 +106,7 @@ span {
   line-height: 20px;
   color: #838383;
 }
-.header__footer_direccion {
+.header__footer__paragraph {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
@@ -151,7 +151,7 @@ span {
   display: flex;
   column-gap: 40px;
 }
-.recipes-caption {
+.recipes__video-caption {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
