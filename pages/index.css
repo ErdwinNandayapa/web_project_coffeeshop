@@ -88,18 +88,18 @@
   margin-top: auto;
 }
 
-.header__footer__list {
+.header__list {
   list-style: none;
   padding: 0;
+  flex-basis: 100%;
 }
-.header__footer__list-item {
+.header__list-item {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
   color: #838383;
-  flex-basis: 100%;
 }
 .header__paragraph {
   font-family: "Inter";
