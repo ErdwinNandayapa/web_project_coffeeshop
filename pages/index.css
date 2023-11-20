@@ -64,7 +64,7 @@
   line-height: 30px;
   z-index: 2;
 }
-span {
+.header__title-color {
   font-family: "Noto Serif";
   font-style: italic;
   font-weight: normal;
@@ -88,7 +88,7 @@ span {
   display: flex;
   margin-top: auto;
 }
-.header__footer_column {
+.header__footer_columns {
   display: flex;
   flex-basis: 100%;
   justify-content: space-between;
