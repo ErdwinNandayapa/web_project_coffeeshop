@@ -87,11 +87,6 @@
   display: flex;
   margin-top: auto;
 }
-.header__footer_columns {
-  /* display: flex;
-  flex-basis: 100%;
-  justify-content: space-between;*/
-}
 
 .header__footer__list {
   list-style: none;
