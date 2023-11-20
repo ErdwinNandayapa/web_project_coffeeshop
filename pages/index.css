@@ -91,7 +91,7 @@
 .header__list {
   list-style: none;
   padding: 0;
-  flex-basis: 100%;
+  flex-basis: 76%;
 }
 .header__list-item {
   font-family: "Inter";
