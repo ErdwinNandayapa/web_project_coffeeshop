@@ -147,6 +147,7 @@ span {
   margin-top: 80px;
   position: relative;
   column-gap: 40px;
+  flex-wrap: wrap;
 }
 .recipes__iframe {
   display: flex;
@@ -157,11 +158,5 @@ span {
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
-  display: flex;
-  justify-content: center;
-  /*position: absolute;*/
-  /*bottom: -31px;*/
-  gap: 39px;
   margin-top: 24px;
-  padding-bottom: 215px;
 }
