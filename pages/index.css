@@ -83,15 +83,14 @@
 .header__footer {
   z-index: 3;
   position: relative;
-
   width: 100%;
   display: flex;
   margin-top: auto;
 }
 .header__footer_columns {
-  display: flex;
+  /* display: flex;
   flex-basis: 100%;
-  justify-content: space-between;
+  justify-content: space-between;*/
 }
 
 .header__footer__list {
@@ -105,8 +104,9 @@
   font-size: 16px;
   line-height: 20px;
   color: #838383;
+  flex-basis: 100%;
 }
-.header__footer__paragraph {
+.header__paragraph {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
