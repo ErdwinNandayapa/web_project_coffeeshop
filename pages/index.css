@@ -171,9 +171,6 @@
   line-height: 52px;
   text-align: center;
 }
-.reservation__form {
-  margin-top: 80px;
-}
 
 .form__input {
   border-radius: 4px;
@@ -181,12 +178,8 @@
   margin-top: 8px;
   height: 60px;
 }
-.reservation__form {
-  display: flex;
-  position: relative;
-  justify-content: center;
-}
-.form__fildset {
+
+.form {
   display: flex;
   position: relative;
   flex-direction: column;
