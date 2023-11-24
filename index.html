@@ -10,6 +10,7 @@
     <link rel="shortcut icon" href="favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Marvel:ital@1&family=Noto+Serif:ital@0;1&family=Roboto&display=swap"
       rel="stylesheet"
@@ -171,34 +172,34 @@
             <div class="card">
               <h4 class="card__title">De filtro</h4>
               <ul class="card__list">
-                <li class="card_list-item">
+                <li class="card__list card_list-item">
                   Regular(12
                   oz)_______________________________________________________
-                  <span class="card__list-divider"></span>
+                  <span class="card__list card__list-divider"></span>
                   $1
                 </li>
-                <li class="card_list-item">
+                <li class="card__list card_list-item">
                   Regular(16
                   oz)____________________________________________________
-                  <span class="card__list-divider"></span>
+                  <span class="card__list card__list-divider"></span>
                   $1.25
                 </li>
-                <li class="card_list-item">
+                <li class="card__list card_list-item">
                   XL (20
                   oz)_________________________________________________________
-                  <span class="card__list-divider"></span>
+                  <span class="card__list card__list-divider"></span>
                   $1.25
                 </li>
-                <li class="card_list-item">
+                <li class="card__list card_list-item">
                   Tamaño familiar (24 oz,
                   descafeinado)___________________________
-                  <span class="card__list-divider"></span>
+                  <span class="card__list card__list-divider"></span>
                   $1.75
                 </li>
-                <li class="card_list-item">
+                <li class="card__list card_list-item">
                   Cafe Helado (16
                   oz)_______________________________________________
-                  <span class="card__list-divider"></span>
+                  <span class="card__list card__list-divider"></span>
                   $1.25
                 </li>
               </ul>
@@ -206,25 +207,25 @@
             <div class="card">
               <h4 class="card__title">Expresso</h4>
               <ul class="card__list">
-                <li class="card_list-item">
+                <li class="card__list card_list-item">
                   Macchiato________________________________________________________
-                  <span class="card__list-divider"></span>
+                  <span class="card__list card__list-divider"></span>
                   $2.25
                 </li>
-                <li class="card_list-item">
+                <li class="card__list card_list-item">
                   Cortado____________________________________________________________
-                  <span class="card__list-divider"></span>
+                  <span class="card__list card__list-divider"></span>
                   $2.5
                 </li>
-                <li class="card_list-item">
+                <li class="card__list card_list-item">
                   Mocha_______________________________________________________________
-                  <span class="card__list-divider"></span>
+                  <span class="card__list card__list-divider"></span>
                   $3
                 </li>
-                <li class="card_list-item">
+                <li class="card__list card_list-item">
                   Amanecer en Bay Area
                   (descafeinado)____________________________
-                  <span class="card__list-divider"></span>
+                  <span class="card__list card__list-divider"></span>
                   $1.75
                 </li>
               </ul>
@@ -232,40 +233,40 @@
             <div class="card">
               <h4 class="card__title">Repostrería</h4>
               <ul class="card__list">
-                <li class="card_list-item">
+                <li class="card__list card_list-item">
                   Croissant de
                   almendra_______________________________________________
-                  <span class="card__list-divider"></span>
+                  <span class="card__list card__list-divider"></span>
                   $2
                 </li>
-                <li class="card_list-item">
+                <li class="card__list card_list-item">
                   Pan de
                   banana____________________________________________________
-                  <span class="card__list-divider"></span>
+                  <span class="card__list card__list-divider"></span>
                   $1.75
                 </li>
-                <li class="card_list-item">
+                <li class="card__list card_list-item">
                   Tarta de
                   limón_______________________________________________________
-                  <span class="card__list-divider"></span>
+                  <span class="card__list card__list-divider"></span>
                   $3
                 </li>
-                <li class="card_list-item">
+                <li class="card__list card_list-item">
                   Pastel Blue
                   velvet_________________________________________________
-                  <span class="card__list-divider"></span>
+                  <span class="card__list card__list-divider"></span>
                   $3.75
                 </li>
-                <li class="card_list-item">
+                <li class="card__list card_list-item">
                   Cookie
                   Web__________________________________________________________
-                  <span class="card__list-divider"></span>
+                  <span class="card__list card__list-divider"></span>
                   $2
                 </li>
-                <li class="card_list-item">
+                <li class="card__list card_list-item">
                   Baguette
                   fresco___________________________________________________
-                  <span class="card__list-divider"></span>
+                  <span class="card__list card__list-divider"></span>
                   $0.25
                 </li>
               </ul>
@@ -303,23 +304,29 @@
           />
           <p class="footer__copyright">@ 2023 Erdwin</p>
           <div class="footer__social">
-            <h2 class="footer__social-heading">Redes sociales</h2>
+            <h2 class="footer__social footer__social-heading">
+              Redes sociales
+            </h2>
             <ul class="footer__list">
-              <li class="footer__list-item">
+              <li class="footer__list footer__list-item">
                 <img
                   src="./images/facebook_white.svg"
                   alt="facebook"
-                  class="footer__social-icon"
+                  class="footer__social footer__social-icon"
                 />
-                <a href="#" class="footer__social-link">Facebook</a>
+                <a href="#" class="footer__social footer__social-link"
+                  >Facebook</a
+                >
               </li>
-              <li class="footer__list-item">
+              <li class="footer__list footer__list-item">
                 <img
                   src="./images/instagram_white.svg"
                   alt="facebook"
-                  class="footer__social-icon"
+                  class="footer__social footer__social-icon"
                 />
-                <a href="#" class="footer__social-link">Instagram</a>
+                <a href="#" class="footer__social footer__social-link"
+                  >Instagram</a
+                >
               </li>
             </ul>
           </div>
