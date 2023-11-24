@@ -1,28 +1,7 @@
-@keyframes pulsate {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 0.6;
-  }
-  100% {
-    transform: scale(1.5);
-  }
-}
-.page {
-  max-height: 1600px;
-  min-width: 1100px;
-  max-width: 1600px;
-  margin: auto;
-  font-family: "Inter", sans-serif;
-  font-size: 16px;
-  line-height: 20px;
-  background-color: #ffffff;
-  background-image: url(../images/background_header.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
+@import url(../vendor/normalize.css);
+@import url(../blocks/page.css);
+@import url(../blocks/about.css);
+
 .header {
   display: flex;
   flex-direction: column;
@@ -327,7 +306,6 @@
 }
 
 .about {
-  /*padding: 100px 80px;*/
   background-color: #0a2750;
   position: relative;
   color: #ffffff;
@@ -374,5 +352,6 @@
   top: -152px;
 }
 .about__circle_animation_blurred {
+  position: static;
   animation: pulsate 1.3s ease-in-out infinite;
 }
