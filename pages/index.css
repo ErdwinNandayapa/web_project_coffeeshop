@@ -14,7 +14,7 @@
 @import url(../blocks/nav/nav.css);
 @import url(../blocks/nav/__logo/nav__logo.css);
 @import url(../blocks/nav/__links/nav__links.css);
-@import url(../blocks/nav/__links/__link/nav__link\ .css);
+@import url(../blocks/nav/__links/__link/nav__link.css
 
 @import url(../blocks/recipes/recipes.css);
 @import url(../blocks/recipes/__title/recipes__title.css);
@@ -55,4 +55,4 @@
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/footer/__social/-heading/footer__social-heading.css);
 @import url(../blocks/footer/__social/-icon/footer__social-icon.css);
-@import url(../blocks/footer/__social/-link/footer__social-link.css);
+@import url(../blocks/footer/__social/-link/footer__social-link.css);;;;
