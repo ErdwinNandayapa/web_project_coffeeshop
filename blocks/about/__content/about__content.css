@@ -1,0 +1,14 @@
+.about__content {
+  max-width: 660px;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  display: flex;
+  flex-direction: column;
+  margin: 119px 80px 173px 0px;
+  margin-left: 26%;
+  z-index: 2;
+  gap: 20px;
+}

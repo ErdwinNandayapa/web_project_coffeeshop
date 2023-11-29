@@ -1,0 +1,7 @@
+.header__footer {
+  z-index: 3;
+  position: relative;
+  width: 100%;
+  display: flex;
+  margin-top: auto;
+}

@@ -120,6 +120,7 @@
                   name="name"
                   id="name"
                   placeholder="  Nombre Apellido"
+                  required
               /></label>
 
               <label for="number" class="form__label"
@@ -131,11 +132,16 @@
                   class="form__input"
                   id="number"
                   placeholder="  1-8"
+                  required
               /></label>
 
               <label for="date" class="form__label"
                 >Fecha y Hora *
-                <input type="datetime-local" class="form__input" id="date"
+                <input
+                  type="datetime-local"
+                  class="form__input"
+                  id="date"
+                  required
               /></label>
 
               <label for="email" class="form__label"
@@ -145,6 +151,7 @@
                   id="email"
                   class="form__input"
                   placeholder="  email@email.com"
+                  required
               /></label>
             </fieldset>
             <button type="submit" class="form__botton">Reservar una mesa</button

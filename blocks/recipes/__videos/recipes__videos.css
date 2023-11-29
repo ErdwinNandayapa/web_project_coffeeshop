@@ -1,0 +1,8 @@
+.recipes__videos {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  position: relative;
+  column-gap: 40px;
+  flex-wrap: wrap;
+}
