@@ -1,8 +1,0 @@
-.menu__cards {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  row-gap: 100px;
-  column-gap: 100px;
-  margin-bottom: 100px;
-}

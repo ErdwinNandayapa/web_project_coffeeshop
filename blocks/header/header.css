@@ -1,8 +1,0 @@
-.header {
-  display: flex;
-  flex-direction: column;
-  padding: 30px 80px 40px;
-  position: relative;
-  box-sizing: border-box;
-  height: 100vh;
-}
